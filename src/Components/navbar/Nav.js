@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,38 +9,38 @@ const Nav = () => {
             <div class="relative grid items-center   grid-cols-2 lg:grid-cols-3">
                 <ul class="flex items-center hidden space-x-7 lg:flex">
                     <li>
-                        <a
-                            href="/"
+                        <Link
+                            to="home"
                             aria-label="Our product"
                             title="Our product"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            href="/"
+                        <Link
+                            to="/"
                             aria-label="Our product"
                             title="Our product"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                            Features
-                        </a>
+                            Statics
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            href="/"
+                        <Link
+                            to="/"
                             aria-label="Product pricing"
                             title="Product pricing"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                            Pricing
-                        </a>
+                            Blog
+                        </Link>
                     </li>
                 </ul>
-                <a
-                    href="/"
+                <Link
+                    to="/"
                     aria-label="Company"
                     title="Company"
                     class="inline-flex items-center  lg:mx-auto"
@@ -62,7 +63,7 @@ const Nav = () => {
                     <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                         Brainless
                     </span>
-                </a>
+                </Link>
 
                 <div class="ml-auto lg:hidden">
                     <button
@@ -91,8 +92,8 @@ const Nav = () => {
                             <div class="p-5 bg-white border rounded shadow-sm">
                                 <div class="flex items-center justify-between mb-4">
                                     <div>
-                                        <a
-                                            href="/"
+                                        <Link
+                                            to="/"
                                             aria-label="Company"
                                             title="Company"
                                             class="inline-flex items-center"
@@ -115,7 +116,7 @@ const Nav = () => {
                                             <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                                                 Brainless
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div>
                                         <button
@@ -136,34 +137,34 @@ const Nav = () => {
                                 <nav>
                                     <ul class="space-y-4">
                                         <li>
-                                            <a
-                                                href="/"
+                                            <Link
+                                                to="/"
                                                 aria-label="Our product"
                                                 title="Our product"
                                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
                                                 Product
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="/"
+                                            <Link
+                                                to="/"
                                                 aria-label="Our product"
                                                 title="Our product"
                                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
                                                 Features
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="/"
+                                            <Link
+                                                to="/"
                                                 aria-label="Product pricing"
                                                 title="Product pricing"
                                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
                                                 Pricing
-                                            </a>
+                                            </Link>
                                         </li>
 
 
