@@ -5,8 +5,8 @@ import Quizes from './Quizes';
 
 export const Home = () => {
     const loaderData = useLoaderData()
-    const quizData = loaderData.data
-
+    // const quizData = loaderData.data
+    console.log(loaderData);
     return (
         <div>
             <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
@@ -54,7 +54,8 @@ export const Home = () => {
             </div>
             <div className='grid ml-56 mt-10 mb-10 grid-cols-1  lg:grid-cols-4 lg:ml-20 md:grid-cols-2 md:ml-40'>
                 {
-                    quizData.map((quiz) => <Quizes data={quiz} id={quiz.id}></Quizes>)
+                    loaderData?.data?.map(
+                        (quiz) => <Quizes data={quiz} id={quiz.id}></Quizes>)
 
                 }
 
