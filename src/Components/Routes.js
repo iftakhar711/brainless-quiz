@@ -21,6 +21,8 @@ export const router = createBrowserRouter([
                 path: '/home/:id', element: <Quiz></Quiz>,
                 loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
             },
+
+
             { path: 'blog', element: <Blog></Blog> }
         ]
     }

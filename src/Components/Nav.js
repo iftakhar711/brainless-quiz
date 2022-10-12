@@ -20,9 +20,9 @@ const Nav = () => {
                     </li>
                     <li>
                         <Link
-                            to="/"
-                            aria-label="Our product"
-                            title="Our product"
+                            to="/home"
+                            aria-label="chart"
+                            title="chart"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                             Statics
@@ -31,8 +31,8 @@ const Nav = () => {
                     <li>
                         <Link
                             to="blog"
-                            aria-label="Product pricing"
-                            title="Product pricing"
+                            aria-label="blog"
+                            title="blog"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                             Blog
@@ -40,7 +40,7 @@ const Nav = () => {
                     </li>
                 </ul>
                 <Link
-                    to="/"
+                    to="/home"
                     aria-label="Company"
                     title="Company"
                     class="inline-flex items-center  lg:mx-auto"
@@ -138,32 +138,32 @@ const Nav = () => {
                                     <ul class="space-y-4">
                                         <li>
                                             <Link
-                                                to="/"
+                                                to="home"
                                                 aria-label="Our product"
                                                 title="Our product"
                                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
-                                                Product
+                                                home
                                             </Link>
                                         </li>
                                         <li>
                                             <Link
-                                                to="/"
+                                                to="/home"
                                                 aria-label="Our product"
                                                 title="Our product"
                                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
-                                                Features
+                                                Statics
                                             </Link>
                                         </li>
                                         <li>
                                             <Link
-                                                to="/"
+                                                to="blog"
                                                 aria-label="Product pricing"
                                                 title="Product pricing"
                                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
-                                                Pricing
+                                                blog
                                             </Link>
                                         </li>
 
