@@ -11,8 +11,8 @@ const Nav = () => {
                     <li>
                         <Link
                             to="home"
-                            aria-label="Our product"
-                            title="Our product"
+                            aria-label="home"
+                            title="home"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                             Home

@@ -5,8 +5,7 @@ import Quizes from './Quizes';
 
 export const Home = () => {
     const loaderData = useLoaderData()
-    // const quizData = loaderData.data
-    console.log(loaderData);
+
     return (
         <div>
             <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
@@ -42,7 +41,7 @@ export const Home = () => {
                         </p>
                         <div className="flex items-center">
                             <a
-                                href="/"
+                                href='/home'
                                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-slate-800 bg-amber-500 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                             >
                                 Get started
