@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 import Quizes from './Quizes';
 
@@ -40,12 +40,12 @@ export const Home = () => {
                             Learn and Win Quiz Competitions.
                         </p>
                         <div className="flex items-center">
-                            <a
-                                href='/home'
+                            <Link
+                                to='/home'
                                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-slate-800 bg-amber-500 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                             >
                                 Get started
-                            </a>
+                            </Link>
 
                         </div>
                     </div>
